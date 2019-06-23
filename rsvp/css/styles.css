@@ -249,7 +249,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 80px; position: relative; z-index: 1; 
-	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; } 
+	background-image: url(../../images/cover_6.jpg); background-size: cover; color: #fff; } 
 
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -264,7 +264,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .rsvp-area{ position: relative; z-index: 1; }
 
 .rsvp-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(../../images/Background_Circle.png); }
+	opacity: .8; background-image: url(../../images/cover_6.jpg);background-size: cover; color: #fff; }
+	/*background: url(../../images/Background_Circle.png); }*/
 
 .rsvp-area .phone{ margin: 10px 0; color: #E45F74; }
 
