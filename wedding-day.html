@@ -14,11 +14,9 @@
 	<!-- Stylesheets -->
 	
 	<link href="common-css/bootstrap.css" rel="stylesheet">
-	
 	<link href="common-css/font-icon.css" rel="stylesheet">
-	
+	<link href="common-css/primary.css" rel="stylesheet">
 	<link href="wedding-day/css/styles.css" rel="stylesheet">
-	
 	<link href="wedding-day/css/responsive.css" rel="stylesheet">
 	
 </head>
@@ -29,7 +27,7 @@
 			<!--<div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="icon icon-bars"></i></div>-->
 			<ul class="main-menu visible-on-click" id="main-menu">
 				<li class="page-nav"><a href="index.html">HOME</a></li>
-				<li class="page-nav"><a href="wedding-day.html">WEDDING DAY</a></li>
+				<li class="page-nav active"><a href="wedding-day.html">WEDDING DAY</a></li>
 				<li class="page-nav"><a href="boston.html">BOSTON</a></li>
 				<li class="page-nav"><a href="accomodations.html">ACCOMODATIONS</a></li>
 				<li class="page-nav"><a href="registry.html">REGISTRY</a></li>
@@ -39,15 +37,6 @@
 	</header>
 	
 	<div class="main-slider">
-		<div class="display-table center-text">
-			<div class="display-table-cell">
-				<div class="slider-content">
-					
-					<h1 class="title">Wedding Day</h1>
-					
-				</div><!-- slider-content-->
-			</div><!--display-table-cell-->
-		</div><!-- display-table-->
 	</div><!-- main-slider -->
 	
 	<section class="regular-area">
@@ -87,8 +76,6 @@
 						<h2 class="margin-top-btm">Reception Parking</h2>
 						<p class="margin-top-btm">Ming's has a parking lot! If that fills
             up (though it's unlikely), there are also a few parking garages nearby.</p>
-
-            <!--<div id="map-mings"></div>-->
 				</div><!-- col-sm-12 -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -98,7 +85,7 @@
 	<footer>
 		<div class="container center-text">
 
-      <h3>#ZalewskiTselebrates</h3>
+      <h4>#ZalewskiTselebrates</h4>
 			
 			<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
@@ -131,15 +118,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       codeAddress(geocoder, map, hopeAddress);
     }
 
-    // function initMingsMap() {
-    //   var mings = {lat: 42.426653, lng: -71.067830};
-    //   var map = new google.maps.Map(
-    //       document.getElementById('map-mings'), {zoom: 18, center: mings});
-
-    //   var geocoder = new google.maps.Geocoder();
-    //   codeAddress(geocoder, map, mingsAddress);
-    // }
-
     function codeAddress(geocoder, map, address) {
       geocoder.geocode({'address': address}, function(results, status) { if (status === 'OK') {
           map.setCenter(results[0].geometry.location);
@@ -153,17 +131,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       });
     }
   </script>
-  <!--Load the API from the specified URL
-  * The async attribute allows the browser to render the page while the API loads
-  * The key parameter will contain your own API key (which is not needed for this tutorial)
-  * The callback parameter executes the initMap() function
-  -->
+
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfRKOeMMJrnCrh4_3GguTK5ygY2q3JiGk&callback=initHopeMap">
   </script>
-
-  <!--<script async defer-->
-    <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfRKOeMMJrnCrh4_3GguTK5ygY2q3JiGk&callback=initMingsMap">-->
-  <!--</script>-->
 </body>
 </html>
