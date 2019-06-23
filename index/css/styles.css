@@ -256,7 +256,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 100vh; position: relative; z-index: 1; 
-	background-image: url(../../images/slider-1-1600x900.jpg); background-size: cover; color: #fff; } 
+	background-image: url(../../images/cover_1.jpg); background-size: cover; color: #fff; } 
 
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -268,34 +268,6 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .slider-content i.small-icon{ font-size: 2.5em; }
 
 .slider-content .title i{ transform: translateY(10px); font-size: .8em; color: #E45F74; }
-
-
-/* ---------------------------------
-5. STORY AREA
---------------------------------- */
-
-.story-area{ position: relative; z-index: 1; }
-
-.story-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(../../images/Background_Circle.png); }
-
-
-/* ---------------------------------
-6. REMAINING TIME
---------------------------------- */
-
-.counter-area{ position: relative; z-index: 1; 
-	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
-
-.counter-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
-	z-index: -1; background: rgba(0,0,0,.3); }
-	
-.remaining-time .time-sec{ position: relative; display: inline-block; margin: 0 20px; margin-bottom: 30px; 
-	height: 120px; width: 120px; padding-top: 25px; border-radius: 100px; border: 1px solid #fff; }
-
-.remaining-time .time-sec .title{ font-size: 3em; line-height: 1; display: block; }
-
-
 
 /* ---------------------------------
 7. WEDDING DETAILS AREA
