@@ -12,13 +12,11 @@
 
 .main-slider .slider-content i{ margin-right: 10px; transform: translateY(3px); }
 
-
-
 /* ---------------------------------
 5. CONTENT AREA
 --------------------------------- */
 .regular-area li{ list-style: none; display: block; }
-.regular-area{ padding: 0 0 100px 0; margin-top: -50px; position: relative; z-index: 10; }
+.regular-area{ position: relative; z-index: 10; }
 
 .regular-area .content{ padding: 40px 70px; box-shadow: 2px 10px 20px rgba(0,0,0,.2); background: #fff; }
 
@@ -37,6 +35,6 @@
   font-weight: 800;
 }
 
-.container .row {
-  padding: 10px;
+.faq .row {
+  padding: 10px 0 10px 0;
 }
