@@ -18,7 +18,7 @@
 5. CONTENT AREA
 --------------------------------- */
 
-.regular-area{ padding: 0 0 100px 0; margin-top: -50px; position: relative; z-index: 10; }
+.regular-area{ position: relative; z-index: 10; }
 
 .regular-area .content{ padding: 40px 70px; box-shadow: 2px 10px 20px rgba(0,0,0,.2); background: #fff; }
 
