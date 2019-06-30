@@ -39,5 +39,6 @@ body, html {
 
 .rsvp-area {
   height: 100%;
+  padding-top: 50px;
   width: 100%;
 }
