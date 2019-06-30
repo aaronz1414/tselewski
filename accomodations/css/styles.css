@@ -23,18 +23,20 @@ html, body {
 5. CONTENT AREA
 --------------------------------- */
 
-.regular-area{ position: relative; z-index: 10; }
+.regular-area{ 
+  padding: 20px 70px 35px 70px;
+}
 
-.regular-area .content{ padding: 40px 70px; box-shadow: 2px 10px 20px rgba(0,0,0,.2); background: #fff; }
+.img-wrapper {
+	text-align: center;
+}
 
-.content .margin-top-btm{ margin: 20px 0; }
+.img-wrapper img {
+  height: 100px;
+  width: 100px;
+}
 
-.content .img-wrapper{ margin: 30px 0; }
+.margin-top-btm{ margin: 20px 0 30px 0; }
 
-.content .quoto-area{ position: relative; padding-left: 50px; }
+.address { margin-bottom: 5px; }
 
-.content .quoto-area .quoto{ font-size: 2em; }
-
-.content .quoto-area .quoto i{ position: absolute; top: -10px; left: 0; transform: rotate(180deg); color: #E45F74; }
-
-.content .quoto-area .name{ margin-top: 20px; color: #666; }
