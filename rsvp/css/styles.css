@@ -22,9 +22,10 @@ body, html {
 
 .rsvp-area{ position: relative; z-index: 1; }
 
-.rsvp-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background-image: url(../../images/cover_6.jpg);background-size: cover; color: #fff; }
-	/*background: url(../../images/Background_Circle.png); }*/
+.rsvp-page{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
+	background-image: url(../../images/cover_6.jpg);background-size: cover; color: #fff; }
+
+.header { position: relative; }
 
 .rsvp-area .phone{ margin: 10px 0; color: #E45F74; }
 
@@ -35,10 +36,12 @@ body, html {
 
 .rsvp-container {
   height: 100%;
+  top: 10%;
 }
 
 .rsvp-area {
   height: 100%;
-  padding-top: 50px;
   width: 100%;
 }
+
+.rsvp-area iframe { position: absolute; }
