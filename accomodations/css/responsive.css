@@ -22,7 +22,6 @@
 	/* ---------------------------------
 	3. MENU
 	--------------------------------- */
-	
 
 }
 
@@ -98,7 +97,7 @@
 	5. CONTENT AREA
 	--------------------------------- */
 
-	.regular-area{ padding: 0 0 50px 0; margin-top: -50px; }
+	.regular-area{ padding: 0 0 50px 0; }
 
 	.regular-area .content{ padding: 20px 30px; }
 	
